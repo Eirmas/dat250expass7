@@ -1,0 +1,25 @@
+{
+  "name": "dat250expass7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:hello-world": "ts-node hello_world.ts",
+    "start:work-queues": "ts-node work_queues.ts",
+    "start:publish-subscribe": "ts-node publish_subscribe.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "dat250expass7"
+  },
+  "author": "Eirik Måseidvåg",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/amqplib": "^0.10.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3"
+  }
+}
